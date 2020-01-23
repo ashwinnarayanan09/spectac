@@ -21,7 +21,7 @@ function App() {
           <div>
               <Menu/>
 
-              <hr />
+              <br /><br /><br /><br />
 
               {/*
           A <Switch> looks through all its children <Route>
@@ -31,6 +31,9 @@ function App() {
           of them to render at a time
         */}
               <Switch>
+                  <Route exact path="/">
+                      <Home />
+                  </Route>
                   <Route exact path="/home">
                       <Home />
                   </Route>
