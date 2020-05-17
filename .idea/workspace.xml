@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8db906e-c964-41d9-9c39-9c86e6caf7d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/PositionList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/spectac/application/config/SinglePageAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Job.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Job.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/spectac/application/controller/PositionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/spectac/application/controller/PositionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/spectac/application/entity/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/spectac/application/entity/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
-    </list>
+    <list default="true" id="a8db906e-c964-41d9-9c39-9c86e6caf7d1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +96,7 @@
           <entry key="html" value="1" />
           <entry key="java" value="25" />
           <entry key="js" value="11" />
-          <entry key="json" value="2" />
+          <entry key="json" value="3" />
           <entry key="properties" value="4" />
           <entry key="sql" value="1" />
           <entry key="xml" value="3" />
@@ -121,7 +107,7 @@
           <entry key="CSS" value="4" />
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="25" />
-          <entry key="JSON" value="2" />
+          <entry key="JSON" value="3" />
           <entry key="JavaScript" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="4" />
@@ -136,7 +122,7 @@
           <entry key="html" value="9" />
           <entry key="java" value="206" />
           <entry key="js" value="950" />
-          <entry key="json" value="27" />
+          <entry key="json" value="28" />
           <entry key="properties" value="86" />
           <entry key="sql" value="77" />
           <entry key="xml" value="23" />
@@ -147,7 +133,7 @@
           <entry key="CSS" value="41" />
           <entry key="HTML" value="9" />
           <entry key="JAVA" value="206" />
-          <entry key="JSON" value="27" />
+          <entry key="JSON" value="28" />
           <entry key="JavaScript" value="950" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="86" />
@@ -159,15 +145,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -201,7 +178,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/PositionList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -209,6 +186,15 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -332,7 +318,6 @@
         <option value="$PROJECT_DIR$/src/main/java/se/spectac/application/config/SinglePageAppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/se/spectac/application/config/CorsConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/se/spectac/application/controller/PositionController.java" />
-        <option value="$PROJECT_DIR$/frontend/package.json" />
         <option value="$PROJECT_DIR$/frontend/src/App.js" />
         <option value="$PROJECT_DIR$/src/main/java/se/spectac/application/entity/Position.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
@@ -340,6 +325,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/frontend/src/components/PositionList.js" />
+        <option value="$PROJECT_DIR$/frontend/package.json" />
       </list>
     </option>
   </component>
@@ -912,7 +898,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586938747128" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589757237385" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -1016,12 +1002,12 @@
       <workItem from="1586848174097" duration="2481000" />
       <workItem from="1587386356518" duration="3163000" />
       <workItem from="1587540936741" duration="560000" />
-      <workItem from="1589756509815" duration="224000" />
+      <workItem from="1589756509815" duration="725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45005000" />
+    <option name="totallyTimeSpent" value="45506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -1168,13 +1154,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/se/spectac/application/entity/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1296,6 +1275,13 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
         </state>
       </provider>
     </entry>
