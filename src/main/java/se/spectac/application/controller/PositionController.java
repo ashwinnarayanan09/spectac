@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import se.spectac.application.entity.Position;
 import se.spectac.application.service.PositionService;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -21,6 +22,8 @@ public class PositionController {
     public ResponseEntity<List<Position>> getPositions() throws IOException {
 
         List<Position> positions = positionService.findAll();
+        /*List<Position> positions = new ArrayList<>();
+        positions.add(new Position(1,"Java Developer","Pune","India"));*/
         return ResponseEntity.ok(positions);
     }
 }
