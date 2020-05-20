@@ -5,7 +5,7 @@ function Footer(){
 
     return(
 
-        <div className="navbar navbar-expand-lg navbar-light bg-dark fixed-bottom">
+        <div className="navbar navbar-expand-lg navbar-light bg-dark footer">
 
             <div className="row">
                 <div className="col-sm-6">

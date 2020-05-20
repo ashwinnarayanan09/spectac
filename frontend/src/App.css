@@ -22,12 +22,23 @@
 }
 
 .footer {
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
+  height: 8.5rem;
 }
 
+.switch{
+
+}
+
+.app{
+
+  position: relative;
+  min-height: 100vh;
+  background-color: snow;
+}
+
+.menu{
+  background-color: #BD5D38;
+}

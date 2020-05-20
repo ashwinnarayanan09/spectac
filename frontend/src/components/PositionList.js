@@ -22,15 +22,14 @@ class PositionList extends Component {
 
         const url = 'api/positions';
         console.log(url)
-       /* fetch(url)
+        fetch(url)
             .then(response => response.json())
             .then(data => this.setState({positions: data, isLoading: false}));
-*/
         console.log("Positions:"+this.state);
     }
 
     render() {
-        /*const {positions, isLoading} = this.state;
+        const {positions, isLoading} = this.state;
         console.log(this.state);
         if (isLoading) {
             return <p>Loading...</p>;
@@ -42,12 +41,12 @@ class PositionList extends Component {
                 <td style={{whiteSpace: 'nowrap'}}>{position.city}</td>
                 <td style={{whiteSpace: 'nowrap'}}>{position.country}</td>
             </tr>
-        });*/
+        });
 
 
         return (
             <div>
-                {/*<Container fluid>
+                <Container fluid>
                     <Table className="mt-4">
                         <thead>
                         <tr>
@@ -60,9 +59,9 @@ class PositionList extends Component {
                         {positionList}
                         </tbody>
                     </Table>
-                </Container>*/}
+                </Container>
 
-                <CustomizedTables/>
+                {/*<CustomizedTables/>*/}
 
             </div>
         );
