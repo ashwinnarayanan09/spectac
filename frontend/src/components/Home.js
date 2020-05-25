@@ -10,75 +10,50 @@ import {
 
 function Home() {
     return (
-        <div className="container-fluid">
-            <h2>SPECTAC</h2>
+        <div style={{minWidth:"100%"}}>
 
-            <h5>Rekrytering och Bemanning</h5><br/>
 
-            <section className ="jumbotron">
+            <section className ="jumbotron " style ={{backgroundColor: "pink"}}>
+                <h2>SPECTAC</h2>
 
-                Spectac Rekrytering Och Bemanning is a provider of innovative consulting services for your manpower needs. Our company is a start-up in Sweden, but our founder has six years of HR experience from several practice industries such as retail, IT and construction. <br/><br/>
+                <h5>Rekrytering och Bemanning</h5><br/>
 
-                We understand industry needs and deliver solutions that leverage the business of our customers.
-
-                Furthermore, we pride ourselves on delivering high quality and value addition to our customers.
+                Spectac Rekrytering Och Bemanning is a provider of innovative consulting services for your manpower needs.
 
             </section>
 
             <div className="row">
-                <div className="col-sm-6">
+                <div className="col">
+                <div className="card">
+                <img className="card-img-top" src={process.env.PUBLIC_URL+'/images/it.jpg'} alt="Card image" />
+                <div className="card-body">
+                <h4 className="card-title">IT & Telecom</h4>
+
+                </div>
+                </div>
+                </div>
+                <div className="col">
                     <div className="card">
+                        <img className="card-img-top" src={process.env.PUBLIC_URL+'/images/mech.jpg'} alt="Card image" />
                         <div className="card-body">
-                            <h5 className="card-title">Recruitment</h5>
-                            <p className="card-text"></p>
+                            <h4 className="card-title">Mechanical</h4>
 
                         </div>
                     </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col">
                     <div className="card">
+                        <img className="card-img-top" src={process.env.PUBLIC_URL+'images/travel.jpg'} alt="Card image"/>
                         <div className="card-body">
-                            <h5 className="card-title">Staffing</h5>
-                            <p className="card-text"></p>
+                            <h4 className="card-title">Tourism</h4>
+
 
                         </div>
                     </div>
                 </div>
             </div><br/>
-            <div className="subheading mb-3">Programming Languages &amp; Tools</div>
-            <ul className="list-inline dev-icons">
-                <li className="list-inline-item">
-                    <i className="fab fa-html5"></i>
-                </li>
-                <li className="list-inline-item">
-                    <i className="fab fa-css3-alt"></i>
-                </li>
-                <li className="list-inline-item">
-                    <i className="fab fa-js-square"></i>
-                </li>
-                <li className="list-inline-item">
-                    <i className="fab fa-angular"></i>
-                </li>
-                <li className="list-inline-item">
-                    <i className="fab fa-react"></i>
-                </li>
-                <li className="list-inline-item">
-                    <i className="fab fa-node-js"></i>
-                </li>
 
-                <li className="list-inline-item">
-                    <i className="fab fa-wordpress"></i>
-                </li>
-                <li className="list-inline-item">
-                    <i className="fab fa-npm"></i>
-                </li>
-                <li className="list-inline-item">
-                    <i className="fab fa-java"></i>
-                </li>
-                <li className="list-inline-item">
 
-                </li>
-            </ul>
 
         </div>
 

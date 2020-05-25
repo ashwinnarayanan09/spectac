@@ -18,10 +18,10 @@ function App() {
   return (
 
       <Router >
-          <div className="app">
+          <div className="app" >
               <Menu/>
-              <br /><br />
-              <div className="switch">
+
+              <div className="switch ">
                 <Switch>
                     <Route exact path="/">
                         <Home />

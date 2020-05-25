@@ -5,7 +5,8 @@ import { faMobileAlt} from '@fortawesome/free-solid-svg-icons'
 
 function Contact() {
     return (
-        <div className="jumbotron">
+        <div className="jumbotron" style ={{backgroundColor: "pink"}}>
+            <h1>Contact</h1>
             <FontAwesomeIcon icon={faEnvelopeSquare} /> : jobs@spectac.se <br/>
             <FontAwesomeIcon icon={faMobileAlt} /> : + 46 722975912
         </div>
