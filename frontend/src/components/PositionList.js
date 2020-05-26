@@ -10,12 +10,17 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import CustomizedTables from "./CustomisedTables";
 
+
+
+
 class PositionList extends Component {
 
     constructor(props) {
         super(props);
         this.state = {positions: [], isLoading: true};
     }
+
+
 
     componentDidMount() {
         this.setState({isLoading: true});
@@ -35,6 +40,26 @@ class PositionList extends Component {
             return <p>Loading...</p>;
         }
 
+        const StyledTableCell = withStyles(theme => ({
+            head: {
+                backgroundColor: theme.palette.secondary.light,
+                color: theme.palette.common.black,
+            },
+            body: {
+                fontSize: 14,
+            },
+        }))(TableCell);
+
+        const StyledTableRow = withStyles(theme => ({
+            root: {
+                '&:nth-of-type(odd)': {
+                    backgroundColor: theme.palette.background.default,
+                },
+            },
+        }))(TableRow);
+
+
+
         const positionList = positions.map(position => {
             return <tr key={position.id}>
                 <td style={{whiteSpace: 'nowrap'}}>{position.name}</td>
@@ -47,18 +72,28 @@ class PositionList extends Component {
         return (
             <div>
                 <Container fluid>
-                    <Table className="mt-4">
-                        <thead>
-                        <tr>
-                            <th width="20%">Position</th>
-                            <th width="20%">City</th>
-                            <th width="20%">Country</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        {positionList}
-                        </tbody>
-                    </Table>
+                    <TableContainer component={Paper}>
+                        <Table  aria-label="customized table">
+                            <TableHead>
+                                <TableRow>
+                                    <StyledTableCell>Position</StyledTableCell>
+                                    <StyledTableCell>City</StyledTableCell>
+                                    <StyledTableCell>Country</StyledTableCell>
+                                </TableRow>
+                            </TableHead>
+                            <TableBody>
+                                {positions.map(position => (
+                                    <StyledTableRow key={position.name}>
+                                        <StyledTableCell component="th" scope="row">
+                                            {position.name}
+                                        </StyledTableCell>
+                                        <StyledTableCell >{position.city}</StyledTableCell>
+                                        <StyledTableCell >{position.country}</StyledTableCell>
+                                    </StyledTableRow>
+                                ))}
+                            </TableBody>
+                        </Table>
+                    </TableContainer>
                 </Container>
 
                 {/*<CustomizedTables/>*/}

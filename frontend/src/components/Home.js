@@ -1,12 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import {
-    faGithubAlt,
-    faGoogle,
-    faFacebook,
-    faTwitter
-} from '@fortawesome/free-brands-svg-icons';
 
 function Home() {
     return (
@@ -21,32 +13,26 @@ function Home() {
                 Spectac Rekrytering Och Bemanning is a provider of innovative consulting services for your manpower needs.
 
             </section>
+            <section className="container-fluid p-3 my-3 bg-dark " style ={{color: "pink"}}>
+               <h1>Services</h1>
+                <p>Our recruitment & staffing services are diversified with strengths in technology, design, financial services, life sciences, education, arts, fashion, manufacturing, food services, and tourism.</p>
+            </section>
 
-            <div className="row">
-                <div className="col">
-                <div className="card">
-                <img className="card-img-top" src={process.env.PUBLIC_URL+'/images/it.jpg'} alt="Card image" />
-                <div className="card-body">
-                <h4 className="card-title">IT & Telecom</h4>
-
-                </div>
-                </div>
-                </div>
-                <div className="col">
+            <div className="row ">
+                <div className="col-sm-6">
                     <div className="card">
-                        <img className="card-img-top" src={process.env.PUBLIC_URL+'/images/mech.jpg'} alt="Card image" />
                         <div className="card-body">
-                            <h4 className="card-title">Mechanical</h4>
+                            <h5 className="card-title">Recruitment</h5>
+                            <p className="card-text">We help you in the process of identifying, attracting, interviewing, selecting, hiring and onboarding employees.</p>
 
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-sm-6">
                     <div className="card">
-                        <img className="card-img-top" src={process.env.PUBLIC_URL+'images/travel.jpg'} alt="Card image"/>
                         <div className="card-body">
-                            <h4 className="card-title">Tourism</h4>
-
+                            <h5 className="card-title">Staffing</h5>
+                            <p className="card-text">We help you in the process of finding, selecting evaluating and developing a working relationship with current or future employees.</p>
 
                         </div>
                     </div>
