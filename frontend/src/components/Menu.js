@@ -2,19 +2,26 @@ import React from "react";
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 
+
+const title = {
+    color:'pink',
+    textDecoration:'none'
+};
+
+
 function Menu() {
     //const handleSelect = eventKey => alert(`selected ${eventKey}`);
 
     return (
         <Navbar  expand="lg" className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-            <Navbar.Brand href="#home" style={{color: 'white', textDecoration: 'none'}}>SPECTAC</Navbar.Brand>
+            <Navbar.Brand href="#home" style={title}>SPECTAC</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" >
                 <Nav className="mr-auto" >
-                    <Nav.Link href="/home" style={{color: 'white', textDecoration: 'none'}}>Home</Nav.Link>
-                    <Nav.Link href="/jobs" style={{color: 'white', textDecoration: 'none'}}>Jobs</Nav.Link>
-                    <Nav.Link href="/about" style={{color: 'white', textDecoration: 'none'}}>About</Nav.Link>
-                    <Nav.Link href="/contact" style={{color: 'white', textDecoration: 'none'}}>Contact</Nav.Link>
+                    <Nav.Link href="/home" style={title}>Home</Nav.Link>
+                    <Nav.Link href="/jobs" style={title}>Jobs</Nav.Link>
+                    <Nav.Link href="/about" style={title}>About</Nav.Link>
+                    <Nav.Link href="/contact" style={title}>Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
            {/* <form className="form-inline">

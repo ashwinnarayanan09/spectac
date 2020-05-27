@@ -42,7 +42,7 @@ class PositionList extends Component {
 
         const StyledTableCell = withStyles(theme => ({
             head: {
-                backgroundColor: theme.palette.secondary.light,
+                backgroundColor: "#D6859A",
                 color: theme.palette.common.black,
             },
             body: {

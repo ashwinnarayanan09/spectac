@@ -1,12 +1,14 @@
 import React from "react";
 
+
+
 function Home() {
     return (
         <div style={{minWidth:"100%"}}>
 
 
             <section className ="jumbotron " style ={{backgroundColor: "pink"}}>
-                <h2>SPECTAC</h2>
+                <h2 >SPECTAC</h2>
 
                 <h5>Rekrytering och Bemanning</h5><br/>
 
