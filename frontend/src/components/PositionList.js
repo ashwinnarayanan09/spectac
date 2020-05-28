@@ -37,7 +37,7 @@ class PositionList extends Component {
         const {positions, isLoading} = this.state;
         console.log(this.state);
         if (isLoading) {
-            return <p>Loading...</p>;
+            return <p style={{color:"pink"}}>Loading...</p>;
         }
 
         const StyledTableCell = withStyles(theme => ({
